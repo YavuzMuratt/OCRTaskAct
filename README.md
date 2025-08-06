@@ -96,6 +96,21 @@ python three_ocr_comparison.py
 - **CSV Raporları**: Tablo formatında sonuçlar
 - **Grafikler**: Performans karşılaştırma grafikleri
 
+## 📈 Sonuçlar
+
+### Performans Karşılaştırması
+
+Aşağıdaki grafikler farklı OCR modellerinin performansını göstermektedir:
+
+#### Tesseract OCR Sistemi Sonuçları
+![Tesseract Performans Analizi](performance_analysis.png)
+
+#### Tesseract vs EasyOCR Karşılaştırması
+![OCR Karşılaştırma Analizi](ocr_comparison_analysis.png)
+
+#### 3 OCR Modeli Karşılaştırması (Tesseract vs EasyOCR vs TrOCR)
+![3 OCR Karşılaştırma Analizi](three_ocr_comparison_analysis.png)
+
 ## 🔧 Teknik Detaylar
 
 ### OCR Model Özellikleri
