@@ -1,0 +1,12 @@
+transformers
+torch
+torchvision
+opencv-python
+Pillow
+numpy
+matplotlib
+seaborn
+pandas
+scikit-image
+easyocr
+pytesseract
