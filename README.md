@@ -116,16 +116,10 @@ Aşağıdaki grafikler farklı OCR modellerinin performansını göstermektedir:
 ### OCR Model Özellikleri
 
 #### Tesseract
-- **Avantajlar**: Hızlı, hafif, iyi dokümante edilmiş
-- **Dezavantajlar**: Karmaşık görüntülerde performans düşük
-- **Kullanım**: `pytesseract.image_to_data()`
+- Hızlı, hafif, iyi dokümante edilmiş ancak başarı düzeyi orta
 
 #### EasyOCR
-- **Avantajlar**: Yüksek doğruluk, modern algoritma
-- **Dezavantajlar**: Daha yavaş, daha fazla bellek kullanımı
-- **Kullanım**: `easyocr.Reader.readtext()`
+- Yüksek doğruluk, modern algoritma
 
 #### TrOCR
-- **Avantajlar**: Transformer tabanlı
-- **Dezavantajlar**: Sadece RGB görüntüler, bbox bilgisi yok
-- **Kullanım**: `transformers.TrOCRProcessor`
+- Transformer tabanlı yaklaşım, bu görev için uygun görünmüyor
