@@ -30,58 +30,6 @@ Bu proje, bir ürün etiketindeki metinleri okumak için farklı OCR (Optical Ch
 - **Karşılaştırmalı Grafikler**: Farklı OCR modellerinin performans karşılaştırması
 - **JSON/CSV Raporları**: Detaylı sonuç raporları
 
-## 🚀 Kurulum
-
-### Gereksinimler
-```bash
-pip install -r requirements.txt
-```
-
-## 📁 Proje Yapısı
-
-```
-OCRTask/
-├── ocr_system.py              # Ana Tesseract OCR sistemi
-├── test_ocr.py                # Test ve doğrulama scripti
-├── easyocr_comparison.py      # Tesseract vs EasyOCR karşılaştırması
-├── three_ocr_comparison.py    # 3 OCR modeli karşılaştırması
-├── ground_truth.json          # Ground truth verileri
-├── requirements.txt           # Python bağımlılıkları
-├── images/                    # Test görüntüleri
-└── outputs/                   # Çıktı dosyaları
-```
-
-## 🎮 Kullanım
-
-### 1. Ana OCR Sistemi
-```bash
-python ocr_system.py
-```
-- Tesseract OCR ile tüm ön işleme yöntemlerini test eder
-- Sonuçları `outputs/` klasörüne kaydeder
-
-### 2. Test ve Doğrulama
-```bash
-python test_ocr.py
-```
-- Tek görüntü veya görüntü grubu için hızlı test
-- Detaylı sonuç raporları
-
-### 3. Tesseract vs EasyOCR Karşılaştırması
-```bash
-python easyocr_comparison.py
-```
-- İki OCR modelini karşılaştırır
-- Sonuçları `outputs_comparison/` klasörüne kaydeder
-
-### 4. 3 OCR Modeli Karşılaştırması
-```bash
-python three_ocr_comparison.py
-```
-- Tesseract, EasyOCR ve TrOCR modellerini karşılaştırır
-- Sadece 'original' ve 'contrast_enhancement' yöntemlerini kullanır
-- Sonuçları `outputs_three_ocr/` klasörüne kaydeder
-
 ## 📊 Çıktılar
 
 ### Görsel Çıktılar
@@ -123,3 +71,41 @@ Aşağıdaki grafikler farklı OCR modellerinin performansını göstermektedir:
 
 #### TrOCR
 - Transformer tabanlı yaklaşım, bu görev için uygun görünmüyor
+
+## 🚀 Kurulum
+
+### Gereksinimler
+```bash
+pip install -r requirements.txt
+```
+
+## 🎮 Kullanım
+
+### 1. Ana OCR Sistemi
+```bash
+python ocr_system.py
+```
+- Tesseract OCR ile tüm ön işleme yöntemlerini test eder
+- Sonuçları `outputs/` klasörüne kaydeder
+
+### 2. Test ve Doğrulama
+```bash
+python test_ocr.py
+```
+- Tek görüntü veya görüntü grubu için hızlı test
+- Detaylı sonuç raporları
+
+### 3. Tesseract vs EasyOCR Karşılaştırması
+```bash
+python easyocr_comparison.py
+```
+- İki OCR modelini karşılaştırır
+- Sonuçları `outputs_comparison/` klasörüne kaydeder
+
+### 4. 3 OCR Modeli Karşılaştırması
+```bash
+python three_ocr_comparison.py
+```
+- Tesseract, EasyOCR ve TrOCR modellerini karşılaştırır
+- Sadece 'original' ve 'contrast_enhancement' yöntemlerini kullanır
+- Sonuçları `outputs_three_ocr/` klasörüne kaydeder
