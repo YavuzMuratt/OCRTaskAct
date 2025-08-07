@@ -1,6 +1,6 @@
 # OCR Etiket Okuma Sistemi
 
-Bu proje, ürün etiketlerindeki metinleri okumak için farklı OCR (Optical Character Recognition) modellerini karşılaştıran bir sistemdir.
+Bu proje, bir ürün etiketindeki metinleri okumak için farklı OCR (Optical Character Recognition) modellerini karşılaştıran bir sistemdir.
 
 ## 🎯 Proje Amacı
 
